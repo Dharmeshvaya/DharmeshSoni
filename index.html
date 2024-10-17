@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movie Reviews by Dharmesh Soni">
+    <title>Dharmesh Soni Movie Reviews</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <h1>Dharmesh Soni Movie Reviews</h1>
+
+    <!-- Search bar to search through the videos -->
+    <input type="text" id="search" placeholder="Search for a movie review..." oninput="searchVideos()">
+
+    <!-- Container to hold all the embedded YouTube videos -->
+    <div id="videoList">
+        <div class="video-item" data-title="Locha Lapsi Movie Review">
+            <h3>Locha Lapsi Movie Review</h3>
+            <iframe src="https://www.youtube.com/embed/hwTBB-fJRBs" frameborder="0" allowfullscreen></iframe>
+            <p><a href="https://www.youtube.com/watch?v=hwTBB-fJRBs" target="_blank">Watch on YouTube</a></p>
+        </div>
+
+        <div class="video-item" data-title="Trisha On The Rocks movie review">
+            <h3>Trisha On The Rocks movie review</h3>
+            <iframe src="https://www.youtube.com/embed/ArXZRyDJoJw" frameborder="0" allowfullscreen></iframe>
+            <p><a href="https://www.youtube.com/watch?v=ArXZRyDJoJw" target="_blank">Watch on YouTube</a></p>
+        </div>
+
+        <div class="video-item" data-title="Builder boys movie review">
+            <h3>Builder boys movie review</h3>
+            <iframe src="https://www.youtube.com/embed/lpL4JPGEc68" frameborder="0" allowfullscreen></iframe>
+            <p><a href="https://www.youtube.com/watch?v=lpL4JPGEc68" target="_blank">Watch on YouTube</a></p>
+        </div>
+
+        <!-- Add more video items like this in the future -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
